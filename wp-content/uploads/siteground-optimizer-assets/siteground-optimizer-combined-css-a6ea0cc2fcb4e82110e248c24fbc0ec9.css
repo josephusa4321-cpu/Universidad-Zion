@@ -6946,7 +6946,7 @@ main {
     font-style: normal;
     font-weight: 500;
     font-display: swap;
-    src: url(https://dbtm.tds.tu.ac.th/wp-content/themes/dbtm/frontend/static/css/../fonts/bebas-neue/BebasNeue-Regular.woff2) format("woff2"), url(https://dbtm.tds.tu.ac.th/wp-content/themes/dbtm/frontend/static/css/../fonts/bebas-neue/BebasNeue-Regular.woff) format("woff"), url(https://dbtm.tds.tu.ac.th/wp-content/themes/dbtm/frontend/static/css/../fonts/bebas-neue/BebasNeue-Regular.otf) format("opentype")
+    src: url(../../../wp-content/themes/dbtm/frontend/static/css/../fonts/bebas-neue/BebasNeue-Regular.woff2) format("woff2"), url(../../../wp-content/themes/dbtm/frontend/static/css/../fonts/bebas-neue/BebasNeue-Regular.woff) format("woff"), url(../../../wp-content/themes/dbtm/frontend/static/css/../fonts/bebas-neue/BebasNeue-Regular.otf) format("opentype")
 }
 
 @font-face {
@@ -6954,7 +6954,7 @@ main {
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(https://dbtm.tds.tu.ac.th/wp-content/themes/dbtm/frontend/static/css/../fonts/anuphan/Anuphan-Regular.ttf) format("truetype")
+    src: url(../../../wp-content/themes/dbtm/frontend/static/css/../fonts/anuphan/Anuphan-Regular.ttf) format("truetype")
 }
 
 @font-face {
@@ -6962,7 +6962,7 @@ main {
     font-style: normal;
     font-weight: 500;
     font-display: swap;
-    src: url(https://dbtm.tds.tu.ac.th/wp-content/themes/dbtm/frontend/static/css/../fonts/anuphan/Anuphan-Medium.ttf) format("truetype")
+    src: url(../../../wp-content/themes/dbtm/frontend/static/css/../fonts/anuphan/Anuphan-Medium.ttf) format("truetype")
 }
 
 @font-face {
@@ -6970,7 +6970,7 @@ main {
     font-style: normal;
     font-weight: 600;
     font-display: swap;
-    src: url(https://dbtm.tds.tu.ac.th/wp-content/themes/dbtm/frontend/static/css/../fonts/anuphan/Anuphan-SemiBold.ttf) format("truetype")
+    src: url(../../../wp-content/themes/dbtm/frontend/static/css/../fonts/anuphan/Anuphan-SemiBold.ttf) format("truetype")
 }
 
 @font-face {
@@ -6978,7 +6978,7 @@ main {
     font-style: normal;
     font-weight: 100 900;
     font-display: swap;
-    src: url(https://dbtm.tds.tu.ac.th/wp-content/themes/dbtm/frontend/static/css/../fonts/manrope/Manrope-VariableFont_wght.woff2) format("woff2"), url(https://dbtm.tds.tu.ac.th/wp-content/themes/dbtm/frontend/static/css/../fonts/manrope/Manrope-VariableFont_wght.woff) format("woff"), url(https://dbtm.tds.tu.ac.th/wp-content/themes/dbtm/frontend/static/css/../fonts/manrope/Manrope-VariableFont_wght.otf) format("opentype")
+    src: url(../../../wp-content/themes/dbtm/frontend/static/css/../fonts/manrope/Manrope-VariableFont_wght.woff2) format("woff2"), url(../../../wp-content/themes/dbtm/frontend/static/css/../fonts/manrope/Manrope-VariableFont_wght.woff) format("woff"), url(../../../wp-content/themes/dbtm/frontend/static/css/../fonts/manrope/Manrope-VariableFont_wght.otf) format("opentype")
 }
 
 body,
@@ -8185,7 +8185,7 @@ html[lang=th] div.degree-pill {
 
 #cta-menu .menu-item-has-children::after,
 #primary-menu .menu-item-has-children::after {
-    content: url(https://dbtm.tds.tu.ac.th/wp-content/themes/dbtm/frontend/static/css/../img/dbtm-chevron.svg);
+    content: url(../../../wp-content/themes/dbtm/frontend/static/css/../img/dbtm-chevron.svg);
     position: absolute;
     width: 16px;
     height: 16px;

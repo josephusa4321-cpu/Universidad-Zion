@@ -13284,7 +13284,7 @@ wp.i18n.setLocaleData({
 })();
 var wpcf7 = {
     "api": {
-        "root": "https:\/\/dbtm.tds.tu.ac.th\/wp-json\/",
+        "root": ".\/wp-json\/",
         "namespace": "contact-form-7\/v1"
     },
     "cached": 1
