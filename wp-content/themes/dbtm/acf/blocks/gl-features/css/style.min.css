@@ -1,0 +1,280 @@
+.gl-b-features-section .accordion-counter,
+.gl-b-features-section .accordion-description {
+    display: none
+}
+
+.gl-b-features-section .accordion-title {
+    transition: color .3s ease
+}
+
+.gl-b-features-section .accordion-image {
+    opacity: 0;
+    transition: opacity .5s ease;
+    z-index: 0
+}
+
+.gl-b-features-section .accordion-image.active {
+    opacity: 1;
+    z-index: 10
+}
+
+.gl-b-features-section .image-with-list-block .list-item {
+    transition: all .3s;
+    position: relative
+}
+
+.gl-b-features-section .image-with-list-block .list-item::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    background-color: transparent;
+    border-radius: 50%;
+    z-index: 0;
+    opacity: 0;
+    transition: all .3s
+}
+
+.gl-b-features-section .image-with-list-block .list-item.active {
+    padding-left: 24px;
+    border: none
+}
+
+.gl-b-features-section .image-with-list-block .list-item.active::after {
+    background-color: #000;
+    opacity: 1;
+    z-index: 1
+}
+
+@media (min-width:768px) {
+    .gl-b-features-section .image-with-list-block .list-item::after {
+        width: 16px;
+        height: 16px
+    }
+    .gl-b-features-section .image-with-list-block .list-item.active {
+        padding-left: 32px
+    }
+}
+
+@media (min-width:1024px) {
+    .gl-b-features-section .image-with-list-block .list-item::after {
+        width: 20px;
+        height: 20px
+    }
+    .gl-b-features-section .image-with-list-block .list-item.active {
+        padding-left: 44px
+    }
+}
+
+.gl-b-features-section .gallery-block .g-year-selector {
+    transition: all .3s;
+    position: relative
+}
+
+.gl-b-features-section .gallery-block .g-year-selector::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 0;
+    transition: all .3s
+}
+
+.gl-b-features-section .gallery-block .g-year-selector:hover {
+    padding-left: 18px
+}
+
+.gl-b-features-section .gallery-block .g-year-selector:hover::after {
+    background-color: #fbdd00;
+    opacity: 1;
+    z-index: 1
+}
+
+.gl-b-features-section .gallery-block .g-year-selector.active {
+    padding-left: 18px;
+    color: #000
+}
+
+.gl-b-features-section .gallery-block .g-year-selector.active::after {
+    background-color: #fbdd00;
+    opacity: 1;
+    z-index: 1
+}
+
+.gl-b-features-section .gallery-block .g-year-selector:hover {
+    color: #000
+}
+
+@media (min-width:768px) {
+    .gl-b-features-section .gallery-block .g-year-selector::after {
+        width: 12px;
+        height: 12px
+    }
+    .gl-b-features-section .gallery-block .g-year-selector:hover {
+        padding-left: 20px
+    }
+    .gl-b-features-section .gallery-block .g-year-selector.active {
+        padding-left: 20px
+    }
+}
+
+.gl-b-features-section .gallery-block .modal-inner.g-landscape,
+.gl-b-features-section .gallery-block .modal-inner.g-landscape-dynamic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+@media (min-width:1024px) {
+    .gl-b-features-section .gallery-block .modal-inner.g-landscape,
+    .gl-b-features-section .gallery-block .modal-inner.g-landscape-dynamic {
+        display: block
+    }
+}
+
+.gl-b-features-section .gallery-block .modal-inner.g-portrait,
+.gl-b-features-section .gallery-block .modal-inner.g-portrait-dynamic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+@media (min-width:1024px) {
+    .gl-b-features-section .gallery-block .modal-inner.g-portrait,
+    .gl-b-features-section .gallery-block .modal-inner.g-portrait-dynamic {
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+.gl-b-features-section .gallery-block .g-image-wrapper.g-portrait {
+    height: 465px
+}
+
+@media (min-width:768px) {
+    .gl-b-features-section .gallery-block .g-image-wrapper.g-portrait {
+        height: calc(100% - 44px);
+        width: 100%
+    }
+}
+
+@media (min-width:1024px) {
+    .gl-b-features-section .gallery-block .g-image-wrapper.g-portrait {
+        aspect-ratio: 541/627;
+        width: 541px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+.gl-b-features-section .gallery-block .g-image-wrapper.g-portrait-dynamic {
+    height: 465px
+}
+
+@media (min-width:769px) {
+    .gl-b-features-section .gallery-block .g-image-wrapper.g-portrait-dynamic {
+        aspect-ratio: 541/627;
+        width: 541px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100%
+    }
+}
+
+@media (min-width:1024px) {
+    .gl-b-features-section .gallery-block .g-subject-container.g-portrait,
+    .gl-b-features-section .gallery-block .g-subject-container.g-portrait-dynamic {
+        width: 541px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+.gl-b-features-section .gallery-block .g-image-wrapper.g-landscape {
+    height: 176px
+}
+
+@media (min-width:768px) {
+    .gl-b-features-section .gallery-block .g-image-wrapper.g-landscape {
+        height: 370px;
+        width: 100%;
+        display: block
+    }
+}
+
+@media (min-width:1024px) {
+    .gl-b-features-section .gallery-block .g-image-wrapper.g-landscape {
+        height: calc(100% - 67px)
+    }
+}
+
+.gl-b-features-section .gallery-block .g-image-wrapper.g-landscape-dynamic {
+    height: 176px
+}
+
+@media (min-width:769px) {
+    .gl-b-features-section .gallery-block .g-image-wrapper.g-landscape-dynamic {
+        aspect-ratio: 768/370;
+        height: auto;
+        display: block
+    }
+}
+
+.gl-b-features-section .animated-text {
+    opacity: 0
+}
+
+.gl-b-features-section .animated-text .line {
+    overflow: hidden
+}
+
+.gl-b-features-section .animated-text .line .word {
+    position: relative;
+    transform: translateY(100%)
+}
+
+.gl-b-features-section .st-active {
+    opacity: 100% !important
+}
+
+.gl-b-features-section .bar-active .inner-bar {
+    width: 100% !important;
+    transition: all 3s !important;
+    transition-timing-function: linear !important
+}
+
+.gl-b-features-section .bar-not-active .inner-bar {
+    width: 0 !important;
+    transition: all 0s !important;
+    transition-timing-function: linear !important
+}
+
+.gl-b-features-section .st-not-active {
+    opacity: 0 !important
+}
+
+@media (max-width:1023px) {
+    body.modal-open,
+    html.modal-open {
+        overflow: hidden !important;
+        height: 100%
+    }
+    body.modal-open::-webkit-scrollbar,
+    html.modal-open::-webkit-scrollbar {
+        display: none
+    }
+    body.modal-open,
+    html.modal-open {
+        -ms-overflow-style: none;
+        scrollbar-width: none
+    }
+}

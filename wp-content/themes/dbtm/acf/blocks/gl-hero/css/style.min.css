@@ -1,0 +1,133 @@
+.integrated-degree .masters-timeline .tl-wrapper .button-container .loader {
+    background-color: #000
+}
+
+.integrated-degree .masters-timeline .tl-wrapper .information-container {
+    color: #fff !important
+}
+
+.integrated-degree .masters-timeline .tl-wrapper.active .button-container p {
+    color: #fff
+}
+
+.integrated-degree .tl-wrapper .button-container {
+    border-bottom: 1px solid #d6d6d6
+}
+
+.integrated-degree .tl-wrapper .button-container .loader {
+    width: 0;
+    background-color: #fbdd00;
+    transition: all .3
+}
+
+.integrated-degree .tl-wrapper .button-container p {
+    color: #d6d6d6
+}
+
+.integrated-degree .tl-wrapper.active .button-container {
+    border-bottom: 1px solid #000;
+    width: 100%
+}
+
+.integrated-degree .tl-wrapper.active .button-container .loader {
+    width: 100%
+}
+
+.integrated-degree .tl-wrapper.active .button-container p {
+    color: #000
+}
+
+.integrated-degree .tl-wrapper.active .information-container {
+    opacity: 100
+}
+
+.integrated-degree .tl-wrapper:nth-child(n+5) .button-container .loader {
+    background-color: #000
+}
+
+.integrated-degree .tl-wrapper:nth-child(n+5) .information-container {
+    color: #fff !important
+}
+
+.integrated-degree .tl-wrapper:nth-child(n+5).active .button-container p {
+    color: #fff
+}
+
+.degree-timeline-mobile .not-active p {
+    color: #a3a3a3 !important
+}
+
+.degree-timeline-mobile .not-active .button-icon {
+    rotate: 0deg
+}
+
+.degree-timeline-mobile .active p {
+    color: #000 !important
+}
+
+.degree-timeline-mobile .active .button-icon {
+    rotate: 45deg
+}
+
+.compact-hero .compact-hero-image {
+    transform-origin: 0 100%
+}
+
+.compact-hero .hero-frame {
+    opacity: 0;
+    transition: opacity .6s ease
+}
+
+.compact-hero .hero-frame.active {
+    opacity: 1
+}
+
+.compact-hero .underline-link {
+    position: static
+}
+
+.compact-hero .underline-link::after,
+.compact-hero .underline-link::before {
+    content: none
+}
+
+@media (min-width:1024px) {
+    .compact-hero .underline-link {
+        position: relative;
+        text-decoration: none;
+        color: inherit
+    }
+    .compact-hero .underline-link::before {
+        content: "";
+        position: absolute;
+        bottom: 14px;
+        height: 5px;
+        left: 0;
+        width: 100%;
+        background: currentColor;
+        transform: scaleX(1);
+        transform-origin: left;
+        transition: transform .5s ease;
+        z-index: 1
+    }
+    .compact-hero .underline-link::after {
+        content: "";
+        position: absolute;
+        bottom: 14px;
+        height: 5px;
+        left: 0;
+        width: 100%;
+        background: currentColor;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform .5s ease .3s;
+        z-index: 0
+    }
+    .compact-hero .underline-link:hover::before {
+        transform: scaleX(0);
+        transform-origin: right
+    }
+    .compact-hero .underline-link:hover::after {
+        transform: scaleX(1)
+    }
+}

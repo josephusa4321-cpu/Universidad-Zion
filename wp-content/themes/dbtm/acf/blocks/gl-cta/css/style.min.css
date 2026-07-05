@@ -1,0 +1,8 @@
+.gl-cta-simple .cta-frame {
+    opacity: 0;
+    transition: opacity .6s ease
+}
+
+.gl-cta-simple .cta-frame.active {
+    opacity: 1
+}
